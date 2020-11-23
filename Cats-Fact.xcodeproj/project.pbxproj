@@ -13,6 +13,9 @@
 		FC2D3849256BA7BD00206BF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC2D3847256BA7BD00206BF7 /* Main.storyboard */; };
 		FC2D384B256BA7BF00206BF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC2D384A256BA7BF00206BF7 /* Assets.xcassets */; };
 		FC2D384E256BA7BF00206BF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC2D384C256BA7BF00206BF7 /* LaunchScreen.storyboard */; };
+		FC2D3860256BAA0000206BF7 /* CatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2D385F256BAA0000206BF7 /* CatModel.swift */; };
+		FC2D3864256BAA2A00206BF7 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2D3863256BAA2A00206BF7 /* NetworkManager.swift */; };
+		FC2D3868256BAA5300206BF7 /* ApiCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2D3867256BAA5300206BF7 /* ApiCall.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		FC2D384A256BA7BF00206BF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC2D384D256BA7BF00206BF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC2D384F256BA7BF00206BF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC2D385F256BAA0000206BF7 /* CatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatModel.swift; sourceTree = "<group>"; };
+		FC2D3863256BAA2A00206BF7 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		FC2D3867256BAA5300206BF7 /* ApiCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCall.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,7 @@
 				FC2D385C256BA99500206BF7 /* Model */,
 				FC2D3859256BA98700206BF7 /* View */,
 				FC2D385A256BA98F00206BF7 /* Controller */,
+				FC2D3862256BAA1B00206BF7 /* Network */,
 				FC2D385D256BA9A100206BF7 /* SupportedFiles */,
 			);
 			path = "Cats-Fact";
@@ -93,6 +100,7 @@
 		FC2D385C256BA99500206BF7 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				FC2D385F256BAA0000206BF7 /* CatModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -105,6 +113,15 @@
 				FC2D384F256BA7BF00206BF7 /* Info.plist */,
 			);
 			path = SupportedFiles;
+			sourceTree = "<group>";
+		};
+		FC2D3862256BAA1B00206BF7 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				FC2D3867256BAA5300206BF7 /* ApiCall.swift */,
+				FC2D3863256BAA2A00206BF7 /* NetworkManager.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +196,9 @@
 			files = (
 				FC2D3846256BA7BD00206BF7 /* ViewController.swift in Sources */,
 				FC2D3842256BA7BD00206BF7 /* AppDelegate.swift in Sources */,
+				FC2D3864256BAA2A00206BF7 /* NetworkManager.swift in Sources */,
+				FC2D3860256BAA0000206BF7 /* CatModel.swift in Sources */,
+				FC2D3868256BAA5300206BF7 /* ApiCall.swift in Sources */,
 				FC2D3844256BA7BD00206BF7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

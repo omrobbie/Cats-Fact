@@ -13,8 +13,18 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        loadData()
+    }
+
+    private func loadData() {
+        NetworkManager().getRandomFact { (text) in
+            DispatchQueue.main.async {
+                self.lblText.text = text
+            }
+        }
     }
 
     @IBAction func btnRandomTapped(_ sender: Any) {
+        loadData()
     }
 }
