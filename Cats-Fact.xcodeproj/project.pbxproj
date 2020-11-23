@@ -56,15 +56,55 @@
 		FC2D3840256BA7BD00206BF7 /* Cats-Fact */ = {
 			isa = PBXGroup;
 			children = (
+				FC2D3857256BA98100206BF7 /* App */,
+				FC2D385C256BA99500206BF7 /* Model */,
+				FC2D3859256BA98700206BF7 /* View */,
+				FC2D385A256BA98F00206BF7 /* Controller */,
+				FC2D385D256BA9A100206BF7 /* SupportedFiles */,
+			);
+			path = "Cats-Fact";
+			sourceTree = "<group>";
+		};
+		FC2D3857256BA98100206BF7 /* App */ = {
+			isa = PBXGroup;
+			children = (
 				FC2D3841256BA7BD00206BF7 /* AppDelegate.swift */,
 				FC2D3843256BA7BD00206BF7 /* SceneDelegate.swift */,
-				FC2D3845256BA7BD00206BF7 /* ViewController.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FC2D3859256BA98700206BF7 /* View */ = {
+			isa = PBXGroup;
+			children = (
 				FC2D3847256BA7BD00206BF7 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FC2D385A256BA98F00206BF7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FC2D3845256BA7BD00206BF7 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FC2D385C256BA99500206BF7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FC2D385D256BA9A100206BF7 /* SupportedFiles */ = {
+			isa = PBXGroup;
+			children = (
 				FC2D384A256BA7BF00206BF7 /* Assets.xcassets */,
 				FC2D384C256BA7BF00206BF7 /* LaunchScreen.storyboard */,
 				FC2D384F256BA7BF00206BF7 /* Info.plist */,
 			);
-			path = "Cats-Fact";
+			path = SupportedFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,7 +327,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Cats-Fact/Info.plist";
+				INFOPLIST_FILE = "Cats-Fact/SupportedFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,7 +345,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Cats-Fact/Info.plist";
+				INFOPLIST_FILE = "Cats-Fact/SupportedFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
